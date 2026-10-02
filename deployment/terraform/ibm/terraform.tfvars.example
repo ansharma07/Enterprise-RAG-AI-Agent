@@ -1,0 +1,48 @@
+# IBM Cloud Credentials
+api_key = ""
+
+# Basic Configuration
+region         = "us-south"
+instance_name  = "erag-gaudi"
+instance_zone  = "us-south-2"
+ssh_key_name   = "your-ssh-key-name"
+resource_group = "default"
+
+# SSH Configuration
+ssh_key  = "~/.ssh/ibm_rsa"
+ssh_user = "ubuntu"
+
+# Hugging Face Token
+hugging_face_token = ""
+
+# Solution Version (default: "release-2.0.0")
+# Specify a git tag (e.g., "release-2.0.0", "release-1.5.0") or branch name ("main")
+#solution_version = "release-2.0.0"
+
+# Model Configuration (Intel Gaudi optimized)
+#deployment_type       = "hpu"
+#llm_model_gaudi      = ""
+#embedding_model_name = ""
+#reranking_model_name = ""
+
+# Instance Configuration
+#instance_profile = "gx3d-160x1792x8gaudi3"
+#boot_volume_size = 250
+
+# Network Configuration (leave empty to create new resources)
+#vpc            = ""
+#subnet         = ""
+#security_group = ""
+
+# SSH Configuration
+#ssh_allowed_cidr = "0.0.0.0/0"  # Restrict this for production!
+
+# Proxy Configuration (for corporate networks)
+#use_proxy    = false
+#proxy_scheme = "socks5"
+#proxy_host   = ""
+#proxy_port   = 1080
+
+# Resource Naming
+#resource_prefix = "erag"
+#fqdn           = "erag.com"
